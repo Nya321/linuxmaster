@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tint2 Openbox Menu
+Comment=Tint2 Openbox Menu Hack
+X-GNOME-FullName=Openbox Menu
+Exec=xterm -geometry 66x10+3+580 -sb -e bc
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/master17/.config/mycfg/23.png
+Categories=Menu;
+MimeType=
+StartupNotify=true
