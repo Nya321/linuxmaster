@@ -1,0 +1,16 @@
+cp ~/1/rc.xml ~/openbox/rc.xml
+cp ~/1/menu.xml ~/openbox/menu.xml
+mkdir ~/.config/mycfg
+cp ~/1/18.png ~/.config/mycfg/18.png
+cp ~/1/23.png ~/.config/mycfg/23.png
+cp ~/1/bc.desktop ~/.config/mycfg/bc.desktop
+cp ~/1/cal.conf ~/.config/mycfg/cal.conf
+chmod +x ~/.config/mycfg/cal.conf
+cp ~/1/menu.desktop ~/.config/mycfg/menu.desktop
+cp ~/1/mute.script ~/.config/mycfg/mute.script
+cp ~/1/conky.conf ~/.config/conky/conky.conf
+cp ~/1/tint2rc ~/.config/tint2/tint2rc
+mkdir ~/.themes/elementary/openbox-3
+cp ~/1/max.xbm ~/.themes/elementary/openbox-3/max.xbm
+cp ~/1/max.xbm ~/.themes/elementary/openbox-3/max_toggled.xbm
+cp ~/1/themerc ~/.themes/elementary/openbox-3/themerc
