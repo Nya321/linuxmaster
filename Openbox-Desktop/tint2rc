@@ -140,8 +140,6 @@ launcher_item_app = ~/.config/mycfg/menu.desktop
 launcher_item_app = /usr/share/applications/spacefm.desktop
 launcher_item_app = ~/.config/mycfg/bc.desktop
 launcher_item_app = /usr/share/applications/firefox.desktop
-launcher_item_app = /usr/share/applications/chromium-browser.desktop
-launcher_item_app = /usr/share/applications/google-chrome.desktop
 launcher_item_app = /usr/share/applications/telegram.desktop
 launcher_item_app = /usr/share/applications/steam.desktop
 
