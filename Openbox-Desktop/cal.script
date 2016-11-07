@@ -1,0 +1,1 @@
+xterm -hold -geometry 56x10+1024+575 -e ncal -M -3
