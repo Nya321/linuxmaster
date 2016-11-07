@@ -13,7 +13,7 @@
 		</item>
 		<item label="Mute/Unmute">
 			<action name="Execute">
-				<execute>/home/master17/.config/mycfg/mute.script</execute>
+				<execute>~/.config/mycfg/mute.script</execute>
 			</action>
 		</item>
 		<separator/>
@@ -27,17 +27,17 @@
 		<menu id="None-283139-44341" label="Folders">
 			<item label="MAI">
 				<action name="Execute">
-					<execute>spacefm /media/master17/Data3/1МГУ-life/МАИ</execute>
+					<execute>spacefm ~/Data3/1МГУ-life/МАИ</execute>
 				</action>
 			</item>
 			<item label="Work">
 				<action name="Execute">
-					<execute>spacefm /media/master17/Data3/work</execute>
+					<execute>spacefm ~/Data3/work</execute>
 				</action>
 			</item>
 			<item label="Home">
 				<action name="Execute">
-					<execute>spacefm /home/master17</execute>
+					<execute>spacefm ~/</execute>
 				</action>
 			</item>
 		</menu>
@@ -194,42 +194,42 @@
 			<menu id="None-283139-404943-963523" label="Конфиги">
 				<item label="tint2rc">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/tint2/tint2rc</execute>
+						<execute>kate ~/.config/tint2/tint2rc</execute>
 					</action>
 				</item>
 				<item label="conky.conf">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/conky/conky.conf</execute>
+						<execute>kate ~/.config/conky/conky.conf</execute>
 					</action>
 				</item>
 				<item label="openbox/autostart.sh">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/openbox/autostart.sh</execute>
+						<execute>kate ~/.config/openbox/autostart.sh</execute>
 					</action>
 				</item>
 				<item label="openbox/menu.xml">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/openbox/menu.xml</execute>
+						<execute>kate ~/.config/openbox/menu.xml</execute>
 					</action>
 				</item>
 				<item label="openbox/rc.xml">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/openbox/rc.xml</execute>
+						<execute>kate ~/.config/openbox/rc.xml</execute>
 					</action>
 				</item>
 				<item label="themerc">
 					<action name="Execute">
-						<execute>kate /home/master17/.themes/elementary/openbox-3/themerc</execute>
+						<execute>kate ~/.themes/elementary/openbox-3/themerc</execute>
 					</action>
 				</item>
 				<item label="menu.desktop">
 					<action name="Execute">
-						<execute>kate /home/master17/.config/mycfg/menu.desktop</execute>
+						<execute>kate ~/.config/mycfg/menu.desktop</execute>
 					</action>
 				</item>
 				<item label=".config/mycfg">
 					<action name="Execute">
-						<execute>spacefm /home/master17/.config/mycfg</execute>
+						<execute>spacefm ~/.config/mycfg</execute>
 					</action>
 				</item>
 			</menu>
