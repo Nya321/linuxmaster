@@ -9,8 +9,9 @@ chmod +x ~/.config/mycfg/cal.conf
 cp ~/1/menu.desktop ~/.config/mycfg/menu.desktop
 cp ~/1/mute.script ~/.config/mycfg/mute.script
 cp ~/1/conky.conf ~/.config/conky/conky.conf
-cp ~/1/tint2rc ~/.config/tint2/tint2rc
 mkdir ~/.themes/elementary/openbox-3
 cp ~/1/max.xbm ~/.themes/elementary/openbox-3/max.xbm
 cp ~/1/max.xbm ~/.themes/elementary/openbox-3/max_toggled.xbm
 cp ~/1/themerc ~/.themes/elementary/openbox-3/themerc
+openbox --reconfigure
+cp ~/1/tint2rc ~/.config/tint2/tint2rc
