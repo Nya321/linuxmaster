@@ -134,7 +134,7 @@
   </desktops>
   <resize>
     <drawContents>yes</drawContents>
-    <popupShow>Nonpixel</popupShow>
+    <popupShow>Always</popupShow>
     <!-- 'Always', 'Never', or 'Nonpixel' (xterms and such) -->
     <popupPosition>Center</popupPosition>
     <!-- 'Center', 'Top', or 'Fixed' -->
@@ -339,24 +339,30 @@
     </keybind>
     <!-- my keybinds -->
     <keybind key="Super_L">
-             <!-- A-F9 -->
+      <!-- A-F9 -->
       <action name="ShowMenu">
         <menu>None-283139</menu>
-            <!-- 19 per 1 -->
-        <position> <x> 3 </x> <y> 477 </y> </position>
+        <!-- 19 per 1 -->
+        <position>
+          <x> 3 </x>
+          <y> 458 </y>
+        </position>
       </action>
     </keybind>
-        <keybind key="C-S">
+    <keybind key="C-S">
       <action name="Execute">
         <command>xdotool key Alt+Shift</command>
       </action>
     </keybind>
     <keybind key="XF86PowerOff">
-        <action name="ShowMenu">
-      <menu>None-215453</menu>
-      <position> <x> 600 </x> <y> 300 </y> </position>
-  </action>
-</keybind>
+      <action name="ShowMenu">
+        <menu>None-215453</menu>
+        <position>
+          <x> 600 </x>
+          <y> 300 </y>
+        </position>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>10</dragThreshold>
@@ -721,7 +727,7 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-      <!--
+    <!--
       <application name="Conky">
           <decor>no</decor>
           <desktop>all</desktop>

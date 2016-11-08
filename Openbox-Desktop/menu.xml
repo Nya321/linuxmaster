@@ -27,24 +27,34 @@
 		<menu id="None-283139-44341" label="Folders">
 			<item label="MAI">
 				<action name="Execute">
-					<execute>spacefm ~/Data3/1МГУ-life/МАИ</execute>
+					<execute>spacefm /media/master17/Data3/1МГУ-life/МАИ</execute>
 				</action>
 			</item>
 			<item label="Work">
 				<action name="Execute">
-					<execute>spacefm ~/Data3/work</execute>
+					<execute>spacefm /media/master17/Data3/work</execute>
 				</action>
 			</item>
 			<item label="Home">
 				<action name="Execute">
-					<execute>spacefm ~/</execute>
+					<execute>spacefm ~</execute>
 				</action>
 			</item>
 		</menu>
 		<menu id="None-283139-934445" label="System">
+			<item label="Xterm">
+				<action name="Execute">
+					<execute>xterm</execute>
+				</action>
+			</item>
 			<item label="Virtualbox">
 				<action name="Execute">
 					<execute>virtualbox</execute>
+				</action>
+			</item>
+			<item label="Keepass2">
+				<action name="Execute">
+					<execute>keepass2</execute>
 				</action>
 			</item>
 		</menu>
@@ -52,6 +62,11 @@
 			<item label="Audacity">
 				<action name="Execute">
 					<execute>audacity</execute>
+				</action>
+			</item>
+			<item label="Kdenlive">
+				<action name="Execute">
+					<execute>kdenlive</execute>
 				</action>
 			</item>
 			<item label="Krita">
@@ -64,6 +79,13 @@
 					<execute>vlc</execute>
 				</action>
 			</item>
+		</menu>
+		<menu id="None-283139-661415" label="Office">
+		<item label="Writer">
+			<action name="Execute">
+				<execute>libreoffice --writer</execute>
+			</action>
+		</item>
 		</menu>
 		<menu id="None-283139-205738" label="Games">
 			<item label="Steam">
@@ -140,7 +162,7 @@
 			</item>
 			<item label="nmtui-connect">
 				<action name="Execute">
-					<execute>xterm nmtui-connect</execute>
+					<execute>xterm -geometry +3+393 nmtui-connect</execute>
 				</action>
 			</item>
 		</menu>
@@ -152,7 +174,7 @@
 			</item>
 			<item label="Alsamixer">
 				<action name="Execute">
-					<execute>xterm alsamixer</execute>
+					<execute>xterm -geometry +3+393 alsamixer</execute>
 				</action>
 			</item>
 			<item label="Kcharselect">
@@ -268,14 +290,9 @@
 		</item>
 	</menu>
 	<menu id="root-menu" label="Openbox 3">
-		<item label="Terminal emulator">
+		<item label="xterm">
 			<action name="Execute">
-				<execute>x-terminal-emulator</execute>
-			</action>
-		</item>
-		<item label="Dolphin">
-			<action name="Execute">
-				<execute>dolphin</execute>
+				<execute>xterm</execute>
 			</action>
 		</item>
 		<item label="SpaceFM">
@@ -314,103 +331,6 @@
 			</menu>
 		</menu>
 		<!-- This requires the presence of the 'menu' package to work -->
-		<separator/>
-		<menu id="root-menu-18336" label="Settings">
-			<item label="alsamixer">
-				<action name="Execute">
-					<execute>xterm alsamixer</execute>
-				</action>
-			</item>
-			<item label="HardInfo">
-				<action name="Execute">
-					<execute>hardinfo</execute>
-				</action>
-			</item>
-			<item label="Obmenu">
-				<action name="Execute">
-					<execute>obmenu</execute>
-				</action>
-			</item>
-			<item label="ObConf">
-				<action name="Execute">
-					<execute>obconf</execute>
-				</action>
-			</item>
-		</menu>
-		<separator/>
-		<menu id="root-menu-752151" label="Games">
-			<item label="Steam">
-				<action name="Execute">
-					<execute>steam</execute>
-				</action>
-			</item>
-			<item label="Don't Starve">
-				<action name="Execute">
-					<execute>steam steam://run/219740</execute>
-				</action>
-			</item>
-			<item label="Dota 2">
-				<action name="Execute">
-					<execute>steam steam://run/570</execute>
-				</action>
-			</item>
-			<item label="DD">
-				<action name="Execute">
-					<execute>steam steam://run/262060</execute>
-				</action>
-			</item>
-			<item label="dd.pdf">
-				<action name="Execute">
-					<execute>okular ~/dd.pdf</execute>
-				</action>
-			</item>
-			<item label="Cities: Skyines">
-				<action name="Execute">
-					<execute>steam steam://run/255710</execute>
-				</action>
-			</item>
-			<item label="Hotline Miami">
-				<action name="Execute">
-					<execute>steam steam://run/219150</execute>
-				</action>
-			</item>
-			<item label="Hotline Miami 2">
-				<action name="Execute">
-					<execute>steam steam://run/274170</execute>
-				</action>
-			</item>
-			<item label="Portal 2">
-				<action name="Execute">
-					<execute>steam steam://run/620</execute>
-				</action>
-			</item>
-			<item label="Portal Stories: Mel">
-				<action name="Execute">
-					<execute>steam steam://run/317400</execute>
-				</action>
-			</item>
-			<item label="Simply Chess">
-				<action name="Execute">
-					<execute>steam steam://run/312280</execute>
-				</action>
-			</item>
-		</menu>
-		<separator/>
-		<item label="Kate">
-			<action name="Execute">
-				<execute>kate</execute>
-			</action>
-		</item>
-		<item label="Krita">
-			<action name="Execute">
-				<execute>krita</execute>
-			</action>
-		</item>
-		<item label="Writer">
-			<action name="Execute">
-				<execute>libreoffice --writer</execute>
-			</action>
-		</item>
 		<separator/>
 		<menu id="/Debian"/>
 		<menu id="client-list-menu"/>
