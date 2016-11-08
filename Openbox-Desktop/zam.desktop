@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zam
+Comment=Zam
+X-GNOME-FullName=Zam
+Exec=xterm -geometry 66x10+3+580 -e ~/.config/mycfg/zam.script
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/master17/.config/mycfg/47.png
+Categories=Menu;
+MimeType=
+StartupNotify=true

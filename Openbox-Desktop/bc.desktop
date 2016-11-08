@@ -1,13 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Tint2 Openbox Menu
-Comment=Tint2 Openbox Menu Hack
-X-GNOME-FullName=Openbox Menu
+Name=Calculator
+Comment=Calculator
+X-GNOME-FullName=Calculator-bc
 Exec=xterm -geometry 66x10+3+580 -sb -e bc
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=~/.config/mycfg/23.png
+Icon=/home/master17/.config/mycfg/23.png
 Categories=Menu;
 MimeType=
 StartupNotify=true

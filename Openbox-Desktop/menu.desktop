@@ -1,13 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Tint2 Openbox Menu
-Comment=Tint2 Openbox Menu Hack
-X-GNOME-FullName=Openbox Menu
+Name=Start
+Comment=Start
+X-GNOME-FullName=StartInTint2
 Exec=xdotool key Super_L
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=~/.config/mycfg/18.png
+Icon=/home/master17/.config/mycfg/18.png
 Categories=Menu;
 MimeType=
 StartupNotify=true
